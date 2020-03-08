@@ -1,0 +1,23 @@
+[colspan="4"] {color: rgba(240, 61, 16, 0.822);}
+h1[align="center"] {color: rgb(245, 16, 16);}
+[align="center"] {color: rgb(255, 238, 0);}
+[href="https://vk.com/antinonnaman"] { 
+    font-size: 26px;  color: rgb(241, 241, 241); background-color: black;
+}
+table[border="3"] {color: hsla(55, 97%, 13%, 0.856);background-color: rgb(223, 213, 193);}
+.small {
+    color: darkturquoise;
+}
+p, li {
+    font-size: 20px;
+}
+h3 {
+    font-size: 28px;
+}
+#psi {
+    color: rgb(255, 0, 0);
+}
+[background="5af01c701ef11.jpg"] {
+    no-repeat
+}
+
