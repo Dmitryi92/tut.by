@@ -14,14 +14,12 @@ a {
     font-size: 20px;
 }
 .raz
-{margin-right: 370px;
-margin-left: 15px;
+{
 font-size: 24px;}
 
 .wyx
 {
-    margin-right: 10px;
-    margin-left: 300px;
+    
     font-size: 20px;
 }
 .wyx:hover {
@@ -68,6 +66,7 @@ font-size: 20px;
 color: rgb(255, 247, 247); 
     padding-top: 90px;
     padding-left: 100px;
+    overflow: hidden;
 }
 .afisha:hover {
     background-image: url(image/afiha.jpg);
@@ -112,28 +111,50 @@ color: blue;
 }
 h2:hover {
     text-decoration: underline;
-
 }
 .vmir {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-    align-content: stretch;
-    font-size: 20px;
-    padding: 40px;
-    margin-left: 70px;
-    margin-right: 70px;
-    text-align: left;
-    background-color: rgb(221, 216, 216);
+    display: flex;
+    justify-content: space-around;
+}
+
+.vmir .link {
+    display: block;
+
 }
 #tututu {
-    background-image: url(image/orange-grunge-background.jpg);
-padding-bottom: 10px;
-padding-top: 10px;}
+    position: relative;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
 h2 {
     text-align: center;
     font-size: 28px;
+}
+#tututu img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+#tututu:hover img {
+    transform: scale(2);
+}
+#search-button span{
+    font-size: 20px;
+    font-weight: 600;
+    color: blue;
+}
+#search-button {
+    border: none;
+    background-color: black;
+    padding: 10px 20px;
 }
     
