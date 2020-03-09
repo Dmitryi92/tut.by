@@ -1,0 +1,195 @@
+.wiki {
+    display: flex;
+    background-color: white; 
+}
+#shaka img {
+    width: 20px;
+}
+.wikilev{
+    background-color:rgb(221, 221, 221);
+    border-right: 1px solid cornflowerblue;
+    padding-left: 7px;
+    font-size: 14px;
+    line-height: 13px;
+}
+#mater {
+    font-size: 14px;
+}
+
+.wikilev img {
+    width: 150px;
+   
+    
+}
+.wikilev h3 {
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.wikilev em {
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom:35px;
+}
+.wikilev a {
+    line-height: 10px;
+}
+a {
+    text-decoration: none;
+}
+abbr {
+    text-decoration: none;
+}
+button:hover {
+    background-color: white;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+.shapka {
+   
+    padding: 7px 10px;
+}
+
+.poisk {
+    display: flex;
+    justify-content:flex-end;
+    background-color: #69e6fc;
+    font-size: 16px;
+    padding:10px;
+}
+.poisk a{
+    margin-right: 12px;
+}
+#tek {
+    background-color: rgb(178, 223, 241);
+    text-align: center;
+    border: 1px solid black;
+    padding: 7px;
+    margin: 5px;
+
+}
+.osntext {
+    line-height: 22px;
+}
+.osnova {   
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.soderjanie {
+    background-color:rgb(221, 221, 221);
+    border: 1px solid black;
+    margin-right: 87%;
+    padding-left: 7px;
+}
+#q1 b, #q2 b, #q22 b, #q21 b, #q23 b, #q24 b, #q25 b {
+    font-size:24px;
+    margin-bottom: 0px;
+}
+#massaj b{
+    color: rgb(0, 0, 245);
+}
+#qqq {
+    font-size:14px
+}
+#ssylka {
+    border: 1px solid black;
+    background-color: rgb(221, 221, 221);
+    padding: 10px 7px;
+    
+}
+.text1 {
+    border-bottom: 1px solid cornflowerblue;
+}
+.konez, .konshap{
+    background-color: rgb(221, 221, 221);
+    font-size:12px;
+}
+body {
+    background-color: rgb(221, 221, 221);
+}
+.konshap a {
+        margin-right: 20px;   
+        
+}
+.konshap {
+    padding-bottom: 20px;
+}
+#shaka {
+    display: flex;
+    justify-content:flex-end;
+}
+#poi {
+    width: 350px;
+    height: 20px;
+    color: rgba(156, 148, 147, 0.788);
+}
+.tableq {
+    font-size:14px;
+    display: flex;
+    justify-content: center;
+   line-height: 24px;
+}
+.tablname {
+    font-size: 18px;
+}
+td {
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.str {
+    border-left: 8px solid black;
+}
+.aaa {
+    border-left: 8px solid rgb(156, 1, 136);
+}
+.bbb {
+    border-left: 8px solid rgb(240, 146, 6);
+}
+.ccc {
+    border-left: 8px solid rgb(255, 251, 0);
+}
+td img {
+    width: 50px;
+   padding: 15px 3px;
+}
+#shest {
+    width: 14px;
+    padding-left: 10px;
+}
+#shest:hover {
+    transform: scale(1.2);
+}
+#wikiped {
+    color: black;
+}
+#wikiped:hover {
+    text-decoration: none;
+}
+.buttondiv img {
+    width: 60px;
+    height: 23px;
+}
+.buttondiv {
+    background-color:rgb(221, 221, 221);
+    display: flex;
+    justify-content:flex-end;
+    margin: 8px;
+    
+    
+}
+.theend {
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(221, 221, 221);
+}
+#media {
+    padding-right: 7px;
+}
+#oste a{
+    text-decoration: none;
+    color: black
+}
