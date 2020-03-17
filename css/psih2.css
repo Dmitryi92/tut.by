@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.conteiner {
+display: flex;
+
+}
+body a:hover
+{
+text-decoration:underline ;
+}
+div {
+    box-sizing: border-box;}
+a {
+    color:#5645B4
+}
+
+.wiki {
+    margin-bottom: 30px;
+    
+}
+.wiki img{
+width: 130px;
+
+}
+.left-nov {
+background-color: #F6F6F6;
+width: 176px;
+padding:0 20px 0 25px ;
+font-size: 14px;
+line-height: 21px;
+}
+
+.menuleft li{
+    list-style-type: none;
+}
+.menuleft {
+    margin-bottom: 25px;
+}
+#startimg {
+    width: 15px;
+   float: right;
+}
+#startimg:hover {
+transform: scale(1.1); }
+
+#knopkali img, #pravitss img{
+width: 14px;
+}
+#knopkali {
+    border: 1px solid black;
+    padding: 3px 5px;
+    line-height: 35px;
+    color: black;
+    text-decoration: none;
+    }
+#knopkali:hover {
+        background-color: white;
+    }
+#pravitss {
+        text-align: right;
+        color: #D1D1D1;
+    }
+#pravitss:hover {
+        color:#5645B4;
+    }
+
+.osnova-right {
+    width:100%;
+    display: flex; 
+    flex-direction: column;
+    background-color: white;
+    padding-top: 5px;
+        }
+.top-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 6px;   
+}    
+
+.toptor li{
+   display: inline-block;
+   margin-right: 10px;
+   font-size: 14px;
+  }
+.man img {
+    width: 16px;
+}
+.poisktext {
+display: flex;
+justify-content: space-between;
+font-size: 16px;
+
+border-left: 1px solid rgb(4, 176, 255);
+margin-top: 25px;
+background-color: #EAF3F9;
+}
+.poisktext li {
+    display: inline-block;
+    
+    
+}
+.dddd {
+   padding: 5px 7px;
+   border-right: 1px solid rgb(4, 176, 255);
+   border-bottom: 1px solid rgb(4, 176, 255);
+}
+.d333 {
+    width: 790px;
+    background-color:#F9F9F9;
+}
+
+.d-poick img{
+    width: 15px;
+}
+.d-poick {
+    background-color: #F9F9F9;
+    width: 280px;
+    border-right: none;
+    }
+.d-poick input {
+height: 25px;
+width: 255px;
+}
+.q1111, .q555 {
+    background-color: white;
+    border-bottom:none ;    
+}
+
+.osnova {
+    padding: 25px;
+border-left: 1px solid rgb(4, 176, 255);
+border-bottom: 1px solid rgb(4, 176, 255);
+font-size: 16px;
+}
+.osnova p, .osnova li {line-height: 20px;}
+#pravit {
+   float: right;
+}
+#tekver {
+    text-align: center;
+    margin: 5px 0 15px 10px;
+    margin-bottom: 15px;
+    padding: 5px 0;
+    border: 1px solid #D1D1D1;
+    background-color: #EAF3FF;
+}
+
+h1, h3 {
+    font-weight: normal;
+}
+.tabl1 {
+    border: 1px solid black;
+border-left: none;
+ margin: auto;
+ font-size: 14px;
+}
+
+ td.l1, td.l2 {
+    border-bottom: 1px solid black;
+}
+.l1 {
+    border-left: 10px solid #9932CC;
+}
+.l2 {
+    border-left: 10px solid #F28500;
+}
+.l3 {
+    border-left: 10px solid #F4C430;
+}
+.strela  {
+    width: 40px;
+    margin: 25px 15px;
+}
+.tabllev {
+    display: flex;
+    padding: 8px 0 6px 0;
+    background-color: #FBFBFB;
+}
+.h3tabl {
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.imgmans {
+    border: 1px solid black;
+    padding: 7px;
+    margin: 20px 0 30px 13px;
+    width: 265px;
+    background-color: #FBFBFB;
+    text-align: center;
+    float: right;
+}
+.imgmans img {
+    height: 400px;
+}
+#text-inimg {
+    font-size: 13px;
+    
+}
+.imgbottom, .oste-img {
+background-color: #CFE3FF;
+}
+#kurs1 {
+    padding: 5px 0 15px 25px;
+}
+.rers {
+    padding-left: 45px;
+}
+.soderj {
+    border: 1px solid black;
+background-color: #F8F9FA;
+width: 175px;
+padding: 8px 7px;
+margin-top: 7px;
+margin-bottom: 20px;
+}
+.soderj li {
+    list-style-type: none;
+}
+.sow1 {
+  padding-left: 25px;
+}
+.osntext p{
+    margin-bottom: 8px;
+}
+#q1 b, #q2 b, #q3 b, #q4 b, #q5 b, #q6 b, #q7 b {
+    font-size: 21px;
+    font-weight: normal;
+   
+}
+#q1 , #q2 , #q3 , #q4, #q5, #q6, #q7 {
+    margin-top: 25px;
+}
+.bluem {
+  color:#0644AC;
+}
+#ere {
+    padding-left: 25px;
+}
+#tresh {
+    padding-left: 50px;
+}
+.kateg {
+    background-color: #F8F9FA;
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 6px 7px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.botend {
+    background-color: #F6F6F6;
+    padding: 30px 25px;
+font-size: 12px;
+}
+.botend p {
+    margin-bottom: 15px;
+}
+.final {
+    display: flex;
+}
+.final li {
+    margin-right: 12px;
+    list-style-type: none;
+}
+.baton {
+    display: flex;
+    justify-content: flex-end;
+}
+.media img {
+    width: 80px;
+    height: 27px;
+}
+.media {
+    border-radius: 5px;
+    border: 1px solid rgb(199, 196, 196);
+    margin-left: 8px;
+}
