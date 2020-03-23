@@ -1,0 +1,16 @@
+.dfdds {
+    width: 80%;
+height: 300px;
+background-color: khaki;
+margin: auto;
+overflow: visible;
+position: fixed;
+
+}
+.gf {
+    width: 80%;
+    height: 3000px;
+    background-color: rgb(41, 37, 2);
+    margin: auto;
+    overflow:scroll;
+}
