@@ -415,7 +415,7 @@ padding: 10px 0 30px;
     transition: all .4s;
 }
 .bl5-left:hover, .bl5-right:hover {
-    border:none;
+    border: 1px solid white;
     cursor: pointer;
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.226);
 }
@@ -462,7 +462,6 @@ padding: 10px 0 30px;
 .bl5-right {
     display: flex;
     justify-content:space-between;
-    background-image: #fff url("img/c1f13bfb1d8fdcbc293c9.jpg");
     }
 
 .main-right {
@@ -547,11 +546,11 @@ align-items:flex-end;
     background-color:#808080;
 }
 
-.bl6-image-ground {
+ .bl6-image-ground { 
     margin-top: 15px;
     display: flex;
     justify-content:space-around;
-}
+} 
 .bl6-image img {
         width: 320px;
     height: 215px;
@@ -680,6 +679,9 @@ transition: all .3s;
    padding: 12px 20px;
    font-size: 18px;
 }
+.bl7-color-top:hover {
+    text-decoration: underline;
+}
 .bl7-color-top.bl7-top1 {
     background-color: rgba(19, 143, 34, 0.781);
 } 
@@ -691,4 +693,69 @@ transition: all .3s;
 }
 
     
+/* footer */
+.footer {
+    padding: 35px 20px 25px;
+    background-color: #F2F2F2;
+}
+.footer-top {
+display: flex;
 
+padding-bottom: 40px;
+border-bottom: 1px solid #cec5c5;
+line-height: 35px;
+font-size: 14px;
+
+}
+.foot-mini.bl-ul3 {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+  
+  
+    
+}
+.foot-mini.bl-ul1 li i{
+    font-size: 24px;
+    display: inline;
+    margin-left: 6px;
+   
+}
+.fa-android {
+    color:rgb(0, 197, 0);
+}
+.fa-apple {
+    color:black;
+}
+.foot-mini.bl-ul1 {
+    margin:0 155px 0 20px;
+}
+.foot-mini.bl-ul2 {
+    margin-right: 90px;
+}
+.foot-mini.bl-ul3 {
+    margin-right: 55px;
+ 
+} 
+.foot-mini.bl-ul3 i {
+    color:rgba(200, 200, 200, 0.479);
+    font-size: 28px; 
+    margin-right: 10px;
+    transition: all 0.3s;
+}
+.bl-ul3 a:hover i{
+    color:rgba(200, 200, 200, 0.767)
+}
+.ul-foot-left a, .ul-foot-right a {
+    display: flex;
+    align-items: center;
+}
+.footer-bot ul {
+display: flex;
+padding-top: 20px;
+font-size: 13.5px;
+}
+.footer-bot li  {
+    margin-right: 25px;
+    
+}
