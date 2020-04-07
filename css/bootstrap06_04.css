@@ -1,0 +1,464 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   line-height: 1.5em;
+   font-family: Arial, sans-serif;
+}
+a {
+   text-decoration: none;
+
+}
+li {
+   list-style: none;
+}
+.container {
+   max-width: 1160px;
+   margin: 0 auto;
+
+}
+header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed;
+   z-index: 5;
+   width: 100%;
+   height: 65px;
+   background-color: #333333;
+   color:#fff;
+   padding: 0 65px;
+   font-size: 18px;
+  
+}
+.boot_left {
+   font-weight: 800;
+   cursor: pointer;
+}
+.block_demos {
+   display: flex;
+   align-items: center;
+}
+.demos-list>ul {
+   display: flex;
+  
+}
+.popup_menu {
+   position: absolute;
+   background-color: #333333;
+   display: none;
+   top:100% ;
+   left: 0;
+}
+.popup_menu li {
+   padding: 5px 22px;
+   text-transform: none;
+   
+  
+}
+.popup_menu li a {
+   color:#fff;
+   transition: .4s;
+}
+
+.demos-list-main>li {
+   text-transform: uppercase;
+   padding: 0 10px;
+   cursor: pointer;
+   transition: .3s;
+  
+}
+
+.menu_list:hover, .popup_menu li a:hover, .boot_left:hover {
+ color: #B3B3B3;
+}
+.demos_button button{
+   font-size: 18px;
+   color:white;
+  padding: 5px 30px;
+   border:none;
+   cursor: pointer;
+   border-radius: 5px;
+   background-color: #008AE6;
+   text-transform: uppercase;
+}
+.demos_button button:hover {
+   background-color: #0D6786;
+}
+.menu_list {
+   position: relative;
+}
+.menu_list:hover  .popup_menu{
+display: block;
+}
+/* cекция 1 с картинкой */
+#head-image {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   color:rgb(255, 255, 255);
+   background: url(../img/look.com.ua-79416.jpg) 0 0/200% 200% no-repeat fixed;
+}
+.head-img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ 
+}
+.head-img_item {
+  padding: 0 70px;
+  margin-top: 35vh;
+ 
+}
+.head-img_item h1 {
+   font-weight: 900;
+   font-size: 70px;
+}
+.head-img_item p {
+   font-size: 26px;
+   font-weight: bold;
+   padding: 40px 0;
+}
+.button_down, .button_learn-more {
+   display: inline-block;
+   text-align: center;
+   cursor: pointer;
+   padding: 17px 50px;
+   text-transform: uppercase;
+   margin: 0 13px;
+   font-weight: bold;
+   border-radius: 3px;
+   transition: .4s;
+   color:white;
+}
+.button_down {
+   background-color: #E8C73F ;
+}
+.button_learn-more {
+   border: 2px solid #fff;
+}
+.button_learn-more:hover {
+   background-color: #fff;
+   color:#000;
+}
+.button_down:hover{
+background-color:#EA990A;}
+
+.down_arrow li:after {
+ content: "";  
+ position: absolute;
+ width: 40px;
+ color:white;
+ border-bottom:2px solid white;
+
+ top:0%;
+ left:0%;
+}
+
+.down_arrow  {
+   left: 50%;
+   bottom: 3%;
+   position: absolute;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background-color: rgba(0, 0, 0, 0.226);
+   transition: .7s;
+  
+}
+.down_arrow li:first-child:after {
+   transform: rotate(45deg);
+   width: 28px; 
+   left: 10%;
+   top: 65%;
+}
+#down_arrow-child2:after {
+ width: 40px;
+ transform: rotate(90deg);
+ top:50%;
+ left: 18%;
+}
+.down_arrow li:last-child::after {
+   transform: rotate(-45deg);
+   width: 28px;
+   left: 45%;
+   top:65%;
+}
+.down_arrow:hover { 
+   transform: translateY(10px);
+
+}
+/* CЕКция 2 с 4 картинками и текстом */
+
+.image-content {
+   padding: 130px 0;
+   display: flex;
+   justify-content: space-around;
+   
+}
+.image-content_item {
+   max-width: 250px;
+}
+.image-content_item img {
+   text-align: center;
+   width: 140px;
+   margin: 0 auto;
+   display: block;
+}
+.image-content_item h4 {
+   margin: 30px 0 20px 0;
+   text-align: center;
+}
+.image-content_item span {
+color:#49B3D7;}
+
+/* cекция 3 с фиксорованным фоном */
+#free-fixed {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   color:rgb(255, 255, 255);
+   background: url(../img/nana-nymann-twillight-org1_auto_auto.jpg) 0 0/200% 200% no-repeat fixed;
+}
+.button_down_blue {
+   background-color: #18A1FE;
+}
+.button_down_blue:hover {
+   background-color: #0D6786;
+}
+/* cекция 4 с темным фоном и картинками4 */
+
+#image4-content2 {
+   background-color: #1C496E;
+   color:#fff;
+}
+
+/* cекция 5 айфон6 с картинками*/
+
+#iphone {
+   display: flex;
+   justify-content: center;
+   padding: 45px 0;
+   position: relative;
+}
+.cont {
+   width: 840px;
+   height: 400px;
+   overflow: hidden;
+}
+.iphone6 {
+   display: flex;
+   justify-content: center;
+   height: 400px;
+   transition: .5s;
+}
+.iphone6_item, .iphone6_item img {
+   width: 600px;
+   height: 400px;
+}
+.iphone6_item {
+   margin: 0 75px;
+   position: relative;
+}
+.iphone6-img1_text-button {
+   position: absolute;
+   text-align: center;
+   color:#fff;
+   left: 0;
+   top:25%;
+   padding: 0 50px;
+   z-index: 2;
+}
+.iphone6-img1_text-button h3 {
+   font-size: 40px;
+   font-weight: normal;
+}
+.iphone6-img1_text-button p {
+   margin: 25px 0;
+}
+.button_down_black {
+   background-color: #333333;
+}
+.button_down_black:hover {
+   background-color: #000;
+}
+.iphone6-img2_text {
+   position: absolute;
+  font-size: 35px;
+  text-align: center;
+   left: 20%;
+   top: 50%;
+   z-index: 2;
+   color: white;
+   
+}
+.iphone-arrow {
+   
+  
+   color:white;
+   background-color: rgba(124, 124, 124, 0.459);
+   font-size: 30px;
+   width: 45px;
+   height: 45px;
+   cursor: pointer;
+   border-radius: 50%;
+   text-align: center;
+   border: 1px solid #fff;
+   z-index: 3;
+}
+.iphone-arrow:hover {
+   background-color: rgba(0, 0, 0, 0.514);
+}
+ .left_arrow {
+   position: absolute;
+   left: 28%;
+   top: 50%;
+}
+.right_arrow {
+   position: absolute;
+   right:28%;
+   top:50%
+}
+ .iphone6:hover  {
+   transform: translateX(89%);
+}
+/* 
+.left_arrow:hover .iphone6{
+transform: translateX(89%);
+}
+.right_arrow:hover .iphone6 {
+   transform: translateX(-89%);
+} */
+
+.point_bot {
+   position: absolute; 
+   bottom: 11%;
+   left: 49%;
+   text-align: center;
+   z-index: 3;
+}
+.point_bot ul{
+   display: flex;
+   justify-content: center;
+}
+.point_bot li{ 
+   width: 15px;
+   height: 15px;
+   background-color: rgba(0, 0, 0, 0.548);
+   border-radius: 50%;
+   margin: 0 3px;
+   border:2px solid rgba(255, 255, 255, 0.89);
+}
+.point_bot li:hover {
+   background-color: #000;
+      border:2px solid rgba(255, 255, 255);
+      
+}
+
+/* cекция с фикс фоном и картикой компа */
+
+#blue-fon {
+
+background: url(../img/regnum_picture_15621560252432402_normal.jpg) 0 0/200% 200% no-repeat fixed;
+}
+.blue-fon-color {
+   background-color: rgba(60, 174, 176, 0.555);
+}
+.blue-fon {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 100px 0;
+}
+.blue-fon_img, .blue-fon_img img {
+   width: 510px;
+   height: 335px;
+}
+.blue-fon_item {
+   color:white;
+   /* max-width: 535px; */
+   padding-right: 100px;
+   margin-left: 65px;
+}
+.blue-fon_item h3 {
+   font-weight: normal;
+   font-size: 48px;
+   padding-right: 150px;
+}
+.blue-fon_item p {
+   padding: 45px 0;
+   font-size: 15px;
+}
+/* cекция френдли 3картинки+текст */
+#MOBILE-FRIENDLY {
+   background-color:#EFEFEF}
+.frendly {
+   display: flex;
+   justify-content: space-around;
+   padding: 125px 0;
+}
+.frendly_item {
+   text-align: center;
+   width: 328px;
+}
+.frendly_item img {
+   width: 85%;
+   margin-bottom: 50px;
+}
+.frendly_item p {
+   color:rgb(70, 70, 70);
+   padding-top: 20px;
+}
+/* cекция с 4картинками телефона. овер */
+.iphone4-text h2{
+   text-align: center;
+   font-weight: normal;
+font-size: 44px;
+padding: 80px 0;
+}
+.iphone4-img {
+   display: flex;
+   
+}
+.iphone4-img_item {
+   position: relative;
+   width: 25%;
+   transition: .4s;
+   cursor: pointer;
+
+}
+.iphone4-img_item>img {
+   width: 100%;
+   height: 100%;
+   
+}
+.over-phone4 {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255, 0, 0, 0.349);
+   left: 0;
+   top:0;
+   text-align: center;
+   opacity: 0;
+transition: .3s;
+}
+.over-phone4 img {
+   width: 40px;
+   margin-top:25%;
+}
+.over-phone4:hover {
+   opacity: 1;
+}
+
+.iphone4-button {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 50px 160px;
+}
+.one_page {
+   font-weight: 800;
+}
+

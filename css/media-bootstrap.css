@@ -1,0 +1,185 @@
+@media only screen and (max-width:1360px) {
+   .container {
+      padding: 0 10px;
+   }
+  
+}
+@media only screen and (max-width:1060px)  {
+#head-image {
+   height: 80vh;
+}
+.head-img_item {
+   margin-top: 40vh;
+}
+.image-content_item {
+   font-size: 13px;
+   margin: 0 4px;
+}
+#free-fixed {
+   height: 60vh;
+}
+.head-img {
+   height: 30vh;
+}
+
+.left_arrow {
+   top:50%;
+   left: 20px;
+}
+.right_arrow {
+   top:50%;
+   right: 20px;
+}
+}
+
+@media only screen and (max-width:935px) {
+.head-img_item {
+   margin-top: 30vh;
+}
+.blue-fon_item {
+   margin-left: 15px;
+}
+.blue-fon_item h3 {
+   font-size: 30px;
+}
+.blue-fon_item p {
+   font-size: 14px;
+}
+h2 {
+   font-size: 30px;
+}
+p {
+   font-size: 13px;
+}
+.frendly_item img {
+   width: 50%;
+}
+
+}
+
+@media only screen and (max-width:800px) {
+header {
+   height: 50px;
+   padding: 0;
+   font-size: 14px;
+}
+.menu_list {
+   padding: 0 5px;
+}
+#head-image {
+   height: 70vh;
+}
+.demos_button button {
+   padding: 0;
+}
+.head-img_item h1 {
+   font-size: 34px;
+}
+.head-img_item p {
+   font-size: 24px;
+}
+.popup_menu li{
+   padding: 0;
+   margin: 0;
+text-align: center;
+width: 140px;
+}
+.iphone4-text h2 {
+   font-size: 26px;
+}
+.image-content, .frendly {
+   flex-wrap: wrap;
+}
+
+.image-content {
+   padding: 30px 0;
+}
+.button_down, .button_learn-more {
+   padding: 8px 15px;
+   font-size: 14px; 
+}
+.blue-fon {
+   flex-direction: column;
+   justify-content: space-between;
+}
+.iphone4-button {
+   font-size: 14px;
+}
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+header {
+   height: 40px;
+   padding: 0;
+   font-size: 11px;
+   
+}
+.head-img_item {
+   margin-top: 30vh;
+}
+.demos_button button {
+   font-size: 10px;
+}
+
+
+#head-image {
+   height: 60vh;
+}
+
+.head-img_item h1 {
+   font-size: 20px;
+}
+.head-img_item p {
+   font-size: 14px;
+   padding: 15px 0;
+}
+.image-content {
+   padding: 20px 0;
+}
+.iphone4-text h2 {
+   font-size: 20px;
+   padding: 20px;
+}
+.image-content, .frendly {
+   flex-wrap: wrap;
+}
+.button_down, .button_learn-more {
+   padding: 8px 15px;
+   font-size: 14px; 
+   margin: 5px;
+}
+.blue-fon_item p {
+   padding: 15px 0;
+}
+
+.iphone4-button {
+   font-size: 11px;
+   padding: 20px 60px;
+   }
+.button_down_blue {
+   padding: 5px;
+}
+.frendly {
+   padding: 20px;
+}
+.blue-fon_item {
+   padding: 0;
+}
+.blue-fon {
+   padding: 20px 0;
+}
+.frendly_item img  {
+   margin: 15px 0 5px 0;
+   width: 40%;
+}
+.over-phone4 img {
+   width: 20px;
+}
+
+.iphone6_item, .iphone6_item img {
+   width: 500px;
+   height: 95%;
+}
