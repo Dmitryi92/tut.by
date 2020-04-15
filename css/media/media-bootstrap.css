@@ -1,5 +1,6 @@
 @media only screen and (max-width:1360px) {
    .container {
+     
       padding: 0 10px;
    }
   
@@ -36,6 +37,7 @@
 .head-img_item {
    margin-top: 30vh;
 }
+
 .blue-fon_item {
    margin-left: 15px;
 }
@@ -183,3 +185,5 @@ header {
    width: 500px;
    height: 95%;
 }
+}
+

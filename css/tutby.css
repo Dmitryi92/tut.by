@@ -693,12 +693,12 @@ transition: all .3s;
 }
 
     
-/* footer */
-.footer {
+/* header */
+.header {
     padding: 35px 20px 25px;
     background-color: #F2F2F2;
 }
-.footer-top {
+.header-top {
 display: flex;
 
 padding-bottom: 40px;
@@ -750,12 +750,12 @@ font-size: 14px;
     display: flex;
     align-items: center;
 }
-.footer-bot ul {
+.header-bot ul {
 display: flex;
 padding-top: 20px;
 font-size: 13.5px;
 }
-.footer-bot li  {
+.header-bot li  {
     margin-right: 25px;
     
 }

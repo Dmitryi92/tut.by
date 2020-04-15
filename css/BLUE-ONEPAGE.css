@@ -660,11 +660,11 @@ position: relative;
 }
 
 /* сеция 9 футер */
-footer {
+header {
     background-color:#2E2E2E;
 
 }
-.footer {
+.header {
     text-align: center;
     padding: 78px 0;
     width: 390px;
