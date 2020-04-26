@@ -1,0 +1,312 @@
+@media (max-width:1190px)  {
+   .container {
+      overflow: hidden;
+   }
+  .logonpp-img {
+     display: none;
+     
+  }
+ .land-btr {
+    padding: 10px 5px;
+ }
+  .land-btr a {
+     margin: 0 1px;
+  }
+  .header-bot-body, .header-top-body{
+     justify-content: center;
+     font-size: 12px;
+  }
+  .gallery-img-big {
+     display: none;
+     
+  }
+
+ 
+.gallery-img {
+
+   position: relative;
+  max-width: 100%;
+
+  display: flex;
+  justify-content: center;
+  
+}
+.gallery-img>img {
+   max-width: 100%;
+   max-height: 100%;
+}
+.fotoh2 {
+   padding: 30px 0;
+}
+.gallery-img {
+  padding: 0;
+  transform: none;
+  margin-bottom: 30px;
+}
+.resident>h2 {
+   padding: 50px;
+}
+.social-right, .fly-social-wrp {
+   display: none;
+}
+#originality, #residence, #npp88, #video{
+background-size: auto 100%;
+/* background-position: center center; */
+}
+.contacts-the-flex {
+   margin-top: 15px;
+}
+.orig-top-text {
+   padding-top: 0;
+   height: 350px;
+}
+
+
+}
+
+@media (max-width:980px) {
+   .header-bot-body {
+      padding: 10px 0;
+   }
+   .nav>ul>li {
+      padding: 6PX;
+      font-size: 13px;
+   }
+   #white-block {
+      height: 20px;
+   }
+   .list-header li {
+      margin: 0 8px;
+   }
+
+.top0-zindex {
+   display: none;
+}
+.ftr-block {
+   display: none;
+}
+.ftr-block-last {
+display: block;
+width: 40%;
+}
+.ftr-logo-ul {
+   width: 40%;
+   margin-left: 20px;
+}
+footer {
+   justify-content: space-around;
+}
+.logo-foot {
+   margin-top: -20px;
+}
+
+
+}
+
+
+
+
+
+
+@media (max-width:768px)  {
+   .container {
+      font-size: 14px;
+   }
+ .placy-live {
+   flex-wrap: wrap;
+}
+.placy-live-img {
+   width: 90%;
+} 
+.tri-r  {
+   top: -30px;
+   left: 50%;
+   transform: translatex(-50%) rotate(-90deg);
+  
+}
+.tri-l
+{
+   top: calc(100% - 30px);
+   left: 50%;
+   transform: translatex(-50%) rotate(-90deg); 
+}
+
+.header-left, .header-right {
+  display: none;
+
+}
+#header .container  {
+   overflow: hidden;
+}
+.header-bot-body {
+    justify-content: start;
+}
+.burger  {
+   display: block;
+  
+}
+.list-header li a {
+   display: none;
+}
+
+.header-top-body {
+   justify-content: space-between;
+}
+.orig-img {
+  background: none;
+}
+.orig-img:hover {
+  background: none;
+} 
+.orig-bot-ico {
+   flex-wrap: wrap;
+}
+.orig-icon {
+   width: 45%;
+}
+.orig-img img{
+   width: 60%;
+   height: auto;
+}
+.orig-top-text h2  {
+   margin: 0;
+   font-size: 30px;
+}
+h2 {
+   font-size: 30px;
+}
+.ga88-body {
+   display: block;
+}
+.big-span88 {
+   font-size: 20px;
+   color:#fff;
+}
+.ga88>h3 {
+   font-size: 20px;
+   display: inline;
+}
+.ga88p {
+   display: inline;
+}
+.ga88-right {
+   padding-left: 0;
+}
+
+.ga88-right>img {
+   width: 25%;
+}
+.ga88-right h6 {
+   margin-top: 10px;
+}
+.gallery-img>img {
+   width: 25%;
+}
+.museum-natur {
+   padding: 60px 5%;
+}
+.moose-body {
+   display: block;
+}
+.moose-item img {
+   width: 75%;
+   height: auto;
+}
+.moose-item {
+  margin: 20px;
+  background: none;
+  height: auto;
+}
+.video-img {
+   margin: 20px;
+   width: 75%;
+   height: auto;
+}
+.video-img img {
+   width: 100%;
+   height: auto;
+}
+.news-npp-txt>img  {
+   width: 95%;
+   height: auto;
+   margin: 10px;
+}
+#news-npp {
+   background-size: 200% auto;
+}
+
+.news-npp-aht a  {
+   font-size: 15px;
+   margin-right: 10px;
+}
+.news-npp-list {
+   flex-wrap: wrap;
+}
+.news-npp-item {
+   width: 92%;
+}
+.news-npp-aht time  {
+   width: auto;
+   padding: 10px 5px;
+}
+.contacts-the-flex {
+   flex-wrap: wrap-reverse;
+   height: auto;
+}
+.contacts-img {
+   display: none;
+}
+.contacts-txt {
+   margin-left: 0;
+   width: 90%;
+}
+.contacts-the-flex a {
+   font-size: 12px;
+}
+.contacts-phone ul {
+    padding-right: 10px;
+}
+
+.contacts-phone ul li:first-child  {
+   font-size: 14px;
+}
+.contact-bot-img {
+   margin: 30px 0;
+}
+.contact-bot-img {
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.contact-bot-img img  {
+   max-width: 35%;
+   margin: 10px 20px;
+}
+.footer {
+   font-size: 13px;
+}
+.logo-foot {
+   width: 130px;
+}
+.logo-foot img {
+   width: 130px;
+}
+.ftr-logo-ul {
+   margin-left: 10px;
+}
+.deff, .ftr-block h5  {
+   margin-top: 15px;
+}
+.ftr-block h5 {
+   font-size: 15px;
+}
+.list-ga88 {
+   display: block;
+}
+.list-ga88 ul:last-child {
+   padding-left: 15px;
+}
+.list-ga88 ul {
+   margin: 0 15px;
+}
+
+}
